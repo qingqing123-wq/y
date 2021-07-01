@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./js/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <script>
+    $('#diaj').click(function(){
+        $.ajax({
+            url:'http://192.168.1.53:3000/users',
+            type:'post',
+            data:{
+                type:'login',
+                phone:$('#zhs').val(),
+                pass:$('#pass').val()
+            },
+            success(res){
+                var input=document.getElementsByClassName('wwee')[0];
+                var pass=document.getElementsByClassName('wwees')[0];
+                if(res.ok==true){
+                    location.href='./reg.html';
+                    input.innerHTML=res.msg;
+                }else{
+                    pass.innerHTML=res.msg;
+                }
+            }
+        });
+    });
+    </script>
+
+
+
+    <script>
+        $.ajax({
+            url:'http://192.168.1.53:3000/home',
+            type:'get',
+            data:{
+                type:'new',
+            },
+            success:function(res){
+                console.log(res);
+                var dot_rem=doT.template(document.getElementById('hot').innerText);
+                uls.innerHTML=dot_rem(res.musicList);
+            },
+            dataType:'json',
+        })
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+.box .xxw {
+  display: flex;
+  justify-content: space-around;
+  background-image: linear-gradient(to right, #189ee3, #625ae3, #a434d5, #e732a9);
+  padding-top: 0.2rem;
+}
+.box .xxw img {
+  width: 0.44rem;
+  height: 0.44rem;
+}
+.box .xxw span {
+  padding-bottom: 0.2rem;
+  font-size: 0.36rem;
+  color: #ffffff;
+}
+.box .xxw span:nth-child(3) {
+  background: url(../img/index/home-8.png) no-repeat center 0.55rem;
+  color: #ec32a5;
+}
+
+.box .lunbo img {
+  width: 100%;
+  display: block;
+} 
+
+
+.swiper-slide img{
+  width: 100%;
+}
+
+
+.box .ul_1 {
+  width: 100%;
+  overflow: hidden;
+  padding: 0.42rem 0rem 0.32rem 0rem;
+  border-bottom: 0.01rem solid #e8e8e8;
+}
+.box .ul_1 li {
+  margin-left: 0.4rem;
+  float: left;
+  text-align: center;
+}
+.box .ul_1 li img {
+  display: block;
+  width: 1.05rem;
+  height: 1.05rem;
+}
+.box .ul_1 li p {
+  display: block;
+  font-size: 0.28rem;
+  color: #333333;
+}
+.box .ssda {
+  font-size: 0rem;
+  margin-bottom: 1rem;
+}
+.box .ssda .sssda {
+  display: flex;
+  margin-top: 0.42rem;
+  margin-bottom: 0.32rem;
+}
+.box .ssda .sssda .xssd {
+  margin-left: 0.3rem;
+  flex: 8;
+  font-size: 0.32rem;
+  color: #333333;
+}
+.box .ssda .sssda .xssds {
+  flex: 1;
+  text-align: center;
+  font-size: 0.24rem;
+  color: #333333;
+}
+.box .ssda .sssda .xssds img {
+  width: 100%;
+}
+.box .ssda .sssda .xssdsd {
+  flex: 1;
+  text-align: center;
+  font-size: 0.24rem;
+  color: #333333;
+  margin-right: 0.2rem;
+}
+.box .ssda .sssda .xssdsd img {
+  width: 100%;
+}
+.box .ssda .ul_ssd {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.box .ssda .ul_ssd li {
+  width: 2.4rem;
+}
+.box .ssda .ul_ssd li img {
+  width: 2.4rem;
+  height: 2.33rem;
+}
+.box .ssda .ul_ssd li p {
+  display: block;
+  height: 0.64rem;
+  margin-top: 0.16rem;
+  margin-left: 0.32rem;
+  font-size: 0.24rem;
+  color: #333333;
+  margin-bottom: 0.12rem;
+}
+.box .ssda .ul_ssd li a {
+  display: block;
+  margin-bottom: 0.32rem;
+  margin-left: 0.32rem;
+  font-size: 0.18rem;
+  color: #999999;
+}
+.box #flexsda {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 0.98rem;
+  position: fixed;
+  bottom: 0rem;
+  width: 100%;
+  background-image: linear-gradient(to right, #189ee3, #625ae3, #a434d5, #e732a9);
+}
+.box #flexsda .pps p {
+  color: #ffffff;
+}
+.box #flexsda .pps .ww {
+  font-size: 0.24rem;
+}
+.box #flexsda .pps .dda {
+  font-size: 0.2rem;
+}

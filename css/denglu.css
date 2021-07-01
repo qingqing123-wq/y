@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.box_z{
+    display: flex;
+    flex-direction: column;
+    
+   
+}
+.box_1{
+   display: inline-flex;
+   
+    
+}
+.box_1>span:nth-child(1){
+    width: .44rem;
+    height: .44rem;
+        margin: 0.62rem 0rem 0rem 0.32rem;
+     background: url(../img/login/login-one.png) no-repeat center center ;
+}
+.box_1>span:nth-child(2) {
+flex: 8;
+}
+.box_1>span:nth-child(3) {
+    margin: 0.6rem 0.35rem 0rem 0rem;
+  
+   
+}
+#imgss{
+  width: 2.50rem;
+  height: 2.74rem;
+  margin: auto;
+  margin-top: 0.21rem;
+}
+form{
+    margin-top: .52rem;
+    display: inline-flex;
+    flex-direction: column;
+}
+input{
+    border: none;
+    outline: none;
+    width: 6.0rem;
+    color: rgb(153, 153, 153);
+    font-size: .28rem;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
+    border-bottom: .03rem solid rgb(153, 153, 153);
+    margin-top: .64rem;
+}
+input:nth-child(1){
+    background: url(../img/login/login-two.png) no-repeat 5rem center;
+    background-size: 10%;
+}
+#diaj{
+    width: 1.02rem;
+    height: 1.02rem;
+    margin-top: .63rem;
+    border-radius: 50%;
+    margin: .63rem auto;
+ background: url(../img/login/login-three.png) no-repeat center center; 
+}
+.bazs{
+    font-size: .30rem;
+    color: rgb(102, 102, 102);
+    text-align: left;
+}
+.bott{
+    margin:  1.22rem 0rem;
+    text-align: center;
+  
+}
+.bott>a{
+    font-size: .26rem;
+    color: #666666;
+}
+.bott>p {
+    font-size: .22rem;
+    color: #999999;
+}
+.bott>img{
+    margin-top: .46rem;
+    width: .9rem;
+    height: .9rem;
+}
+.wwee {
+    color: rgb(255, 0, 85);
+    font-size: .3rem;
+    text-align: center;
+}
+.wwees {
+    color: red;
+    font-size: .3rem;
+     text-align: center;
+}
